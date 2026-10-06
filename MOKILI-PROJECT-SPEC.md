@@ -23,8 +23,8 @@ L'infrastructure cible selectionnee est la famille **H04 - Hybrid**.
 ### 2.3 MODULES (ACTIVE ET DEFER)  
 - **i18n (ACTIVE) :** FR/EN gere cote front, contenu bilingue en base de donnees.  
 - **Reservations (ACTIVE) :** Module de booking avec statut et gestion des formulaires de demande.  
-- **Mails transactionnels (DEFER) :** Actuellement simule via console. Un service (ex: SendGrid/Resend) devra etre integre plus tard.  
-- **Admin UI (DEFER) :** Actuellement API protegee par header statique. Un panel visuel sera construit ulterieurement.  
+- **Mails transactionnels (ACTIVE) :** Implémenté via Nodemailer multi-fournisseur (SMTP standard, Resend API, console dev) avec notification automatique à l'équipe sur `contact@diaspoboost.com` et accusé de réception candidat avec référence unique.  
+- **Admin UI (ACTIVE) :** Dashboard visuel `/admin` complet et sécurisé par identifiants officiels (`contact@diaspoboost.com` + mot de passe), listing, recherche et filtrage des demandes.  
   
 ### 2.4 ELEMENTS A SUPPRIMER (REMOVE)  
 - A ce stade, le repository est propre. Aucun element structurel n'est marque comme REMOVE.  

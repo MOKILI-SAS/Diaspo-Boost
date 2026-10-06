@@ -67,3 +67,5 @@
 - **Validation Finale :**
   - Vitest : 7/7 tests passés (5 backend + 2 frontend).
   - Production Build : TypeScript strict + Vite build réussis à 100%.
+  - Spécifications projet (MOKILI-PROJECT-SPEC.md) : modules Mails transactionnels et Admin UI passés en statut ACTIVE.
+  - Préparation du push distant vers GitHub.
