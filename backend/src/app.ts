@@ -46,7 +46,7 @@ export function createApp(store: DataStore, mailer: Mailer, env: Env) {
   app.use('/api/v1/bookings', limiter(5), bookingsRouter(store, mailer))
   app.use('/api/v1/newsletter', limiter(3), newsletterRouter(store))
   app.use('/api/v1/contact', limiter(5), contactRouter(store, mailer))
-  app.use('/api/v1/admin', adminRouter(store, env))
+  app.use('/api/v1/admin', limiter(10), adminRouter(store, env))
 
   app.use((_req, res) => {
     res.status(404).json({ code: 'NOT_FOUND', message: 'Route introuvable' })

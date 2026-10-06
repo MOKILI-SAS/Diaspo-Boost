@@ -94,7 +94,7 @@ export const EDITIONS: Edition[] = [
       en: 'Theme: diaspora and development, the Moroccan model. Institutional agreements, B2G dialogue, roadmap to Dakar.',
     },
     bilanSlug: 'casablanca-2026',
-    image: '/editions/agenda-diaspoboost.svg',
+    image: '/editions/casablanca-2026.jpg',
   },
   {
     id: 'kinshasa-2026',
