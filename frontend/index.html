@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr" data-theme="diaspoboost">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1A365D" />
+    <meta
+      name="description"
+      content="DiaspoBoost réunit entrepreneurs, investisseurs et institutions pour transformer la diaspora africaine en levier de développement concret et durable."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>DiaspoBoost — La diaspora africaine en action</title>
+  </head>
+  <body class="min-h-screen bg-base-100 text-base-content antialiased">
+    <form name="booking" method="POST" data-netlify="true" hidden>
+      <input type="hidden" name="form-name" value="booking" />
+      <input name="reference" />
+      <input name="serviceSlug" />
+      <input name="fullName" />
+      <input name="email" />
+      <input name="phone" />
+      <input name="country" />
+      <input name="profile" />
+      <input name="sector" />
+      <textarea name="message"></textarea>
+    </form>
+    <form name="newsletter" method="POST" data-netlify="true" hidden>
+      <input type="hidden" name="form-name" value="newsletter" />
+      <input name="email" />
+      <input name="consent" />
+    </form>
+    <form name="contact" method="POST" data-netlify="true" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input name="fullName" />
+      <input name="email" />
+      <input name="subject" />
+      <textarea name="message"></textarea>
+    </form>
+    <form name="rdv" method="POST" data-netlify="true" hidden>
+      <input type="hidden" name="form-name" value="rdv" />
+      <input name="reference" />
+      <input name="serviceSlug" />
+      <input name="fullName" />
+      <input name="email" />
+      <input name="phone" />
+      <input name="country" />
+      <input name="slot" />
+      <input name="timeZone" />
+      <input name="notifyEmail" />
+      <input name="notifyWhatsapp" />
+      <input name="notifyTelegram" />
+      <input name="telegram" />
+      <textarea name="message"></textarea>
+    </form>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

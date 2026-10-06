@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b" />
+      <stop offset="50%" stop-color="#1c2541" />
+      <stop offset="100%" stop-color="#0b132b" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D97706" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#E11D48" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E11D48" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0b132b" stop-opacity="0" />
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Fond Dégradé Sombre Élégant -->
+  <rect width="800" height="420" fill="url(#bgGrad)" />
+
+  <!-- Halo lumineux -->
+  <circle cx="400" cy="210" r="260" fill="url(#glow)" />
+
+  <!-- Motifs géométriques subtils -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1.5" fill="none">
+    <circle cx="400" cy="210" r="160" />
+    <circle cx="400" cy="210" r="220" />
+    <circle cx="400" cy="210" r="280" />
+    <line x1="120" y1="210" x2="680" y2="210" />
+    <line x1="400" y1="50" x2="400" y2="370" />
+  </g>
+
+  <!-- Cadre Central avec Ombre -->
+  <rect x="180" y="90" width="440" height="240" rx="20" fill="#ffffff" filter="url(#shadow)" />
+
+  <!-- Carte d'Afrique stylisée en filigrane dans le badge -->
+  <path d="M 370 125 C 385 125, 410 130, 420 145 C 425 155, 422 170, 415 180 C 420 195, 425 210, 415 230 C 405 245, 395 260, 390 275 C 385 265, 375 250, 375 235 C 365 215, 360 195, 365 175 C 360 155, 365 135, 370 125 Z" fill="#E11D48" opacity="0.08" />
+
+  <!-- Logo DiaspoBoost : Emblème Vectoriel -->
+  <g transform="translate(400, 165)">
+    <!-- Globe / Cercle dynamique -->
+    <circle cx="0" cy="0" r="32" fill="#0b132b" />
+    <circle cx="0" cy="0" r="30" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" />
+    
+    <!-- Lettres DB entrelacées -->
+    <text x="0" y="11" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="-1">DB</text>
+  </g>
+
+  <!-- Texte Titre DIASPOBOOST -->
+  <text x="400" y="245" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="900" fill="#0b132b" text-anchor="middle" letter-spacing="2">DIASPO<tspan fill="#E11D48">BOOST</tspan></text>
+
+  <!-- Sous-titre officiel -->
+  <text x="400" y="272" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#64748B" text-anchor="middle" letter-spacing="1.5">INVESTISSEMENT PRODUCTIF · AFRIQUE</text>
+
+  <!-- Ligne dorée inférieure -->
+  <rect x="340" y="292" width="120" height="3" rx="1.5" fill="url(#goldGrad)" />
+</svg>

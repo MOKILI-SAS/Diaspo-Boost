@@ -1,0 +1,17 @@
+node_modules
+dist
+build
+.env
+.env.local
+*.log
+.DS_Store
+coverage
+*.mp4
+backend/data/runtime.json
+frontend/public/media/hero.mp4
+.vscode
+.idea
+*.tsbuildinfo
+
+# Local Netlify folder
+.netlify

@@ -1,0 +1,446 @@
+{
+  "meta": {
+    "title": "DiaspoBoost — The African diaspora in action",
+    "description": "DiaspoBoost brings together entrepreneurs, investors and institutions to turn the African diaspora into a concrete, lasting lever for development."
+  },
+  "brand": {
+    "name": "DiaspoBoost",
+    "poweredBy": "Powered by MOKILI",
+    "rights": "All rights reserved",
+    "armoiriesAlt": "Coat of arms of the Democratic Republic of the Congo — visual to be inserted",
+    "armoiriesNote": "DRC coat of arms"
+  },
+  "nav": {
+    "home": "Home",
+    "mission": "Mission",
+    "services": "Services",
+    "investir": "Invest",
+    "participer": "Take part",
+    "sommets": "Summits",
+    "bilans": "Reports",
+    "membres": "Members",
+    "presse": "Press",
+    "equipe": "Team & contact",
+    "news": "News",
+    "gouvernance": "Governance",
+    "faq": "FAQ",
+    "rdv": "Appointment",
+    "contact": "Contact",
+    "start": "GET STARTED",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "hero": {
+    "kicker": "The African diaspora in action",
+    "title": "Build Africa from the outside.",
+    "subtitle": "DiaspoBoost brings together entrepreneurs, investors and institutions to turn the African diaspora into a concrete, lasting lever for development.",
+    "ctaPrimary": "Follow our channel",
+    "ctaSecondary": "Our events",
+    "proof": "5 editions · Europe and Africa · Palace d’Anfa 2026 · Dakar 2027",
+    "stats": [
+      { "value": "5+", "label": "International editions" },
+      { "value": "2", "label": "Continents — Europe and Africa" },
+      { "value": "50+", "label": "Partners and institutions" },
+      { "value": "2027", "label": "Next continental edition — Dakar" }
+    ],
+    "play": "Replay a recent activity",
+    "pause": "Pause",
+    "mute": "Unmute",
+    "unmute": "Mute",
+    "videoSoon": "A video from a recent activity will be published here. Meanwhile, the framework is already in place."
+  },
+  "trust": {
+    "title": "A working framework, not a return promise",
+    "items": [
+      "Host structure: Business Congo Consulting",
+      "Coordination with local governments at summits",
+      "B2G dialogue — business and institutions",
+      "No brokerage, no funds collected online"
+    ]
+  },
+  "stat": {
+    "value": "USD 104bn",
+    "label": "injected into Africa each year by the diaspora — order of magnitude, international estimates.",
+    "claim": "DiaspoBoost wants to channel part of that flow into productive capital, away from aid or emergency transfers.",
+    "cta": "How to invest"
+  },
+  "home": {
+    "servicesTitle": "THE HUB: VIEW ALL OUR SERVICES",
+    "servicesLead": "",
+    "allServices": "See all services",
+    "timelineTitle": "Editions that build on each other",
+    "timelineLead": "From Brussels 2023 to Casablanca 2026: a European then pan-African route, edition after edition.",
+    "allEditions": "Full timeline",
+    "galleryKicker": "In pictures",
+    "galleryTitle": "Our editions in photos",
+    "galleryLead": "Summit photos are published on Instagram @diaspo_boost.",
+    "galleryCta": "See Instagram @diaspo_boost",
+    "howTitle": "Understand. Meet. Act.",
+    "how": [
+      {
+        "title": "Understand",
+        "text": "Break the information gap that stops expatriate executives before the first euro is invested."
+      },
+      {
+        "title": "Meet",
+        "text": "Summits, panels and B2G dialogue to put the right counterparts in the same room."
+      },
+      {
+        "title": "Act",
+        "text": "Book accompaniment, submit a project, prepare Dakar 2027 — a process, not a slogan."
+      }
+    ],
+    "newsTitle": "News & alerts",
+    "newsLead": "Official releases and useful information — without the noise.",
+    "allNews": "Full feed",
+    "teamTitle": "Team & contact",
+    "teamLead": "Who stands behind DiaspoBoost, and how to reach the team.",
+    "teamCta": "Contact us",
+    "finalTitle": "Your next step is one message.",
+    "finalText": "Write to us on WhatsApp. The team will propose a slot to frame the next step — summit, briefing or accompaniment.",
+    "comingTalent": "Coming soon: diaspora talent mapping",
+    "comingFund": "Coming soon: a seed vehicle alongside business angels"
+  },
+  "services": {
+    "kicker": "The hub",
+    "title": "Our services: get started!",
+    "lead": "Pick the door that matches your situation. Each button opens WhatsApp with a ready-to-send message.",
+    "directLink": "Direct link",
+    "active": "Active",
+    "soon": "Soon",
+    "forWho": "Who it is for",
+    "outcomes": "What you get",
+    "formTitle": "Write on WhatsApp",
+    "formLead": "A pre-filled message opens. Add your name, then send — the team will propose a slot.",
+    "empty": "No service is published yet.",
+    "retry": "Try again"
+  },
+  "form": {
+    "fullName": "Full name",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "country": "Country of residence",
+    "profile": "You are",
+    "sector": "Sector of interest (optional)",
+    "message": "Your message",
+    "consent": "I agree that DiaspoBoost may keep this information to handle my request, in line with the privacy policy.",
+    "submit": "Send my request",
+    "sending": "Sending…",
+    "errorSummary": "Please correct the highlighted fields.",
+    "network": "The request could not be sent. Check your connection and try again.",
+    "duplicate": "A request with this email for this service was already sent in the last 24 hours.",
+    "required": "This field is required.",
+    "emailInvalid": "Enter a valid email address.",
+    "phoneInvalid": "Enter a valid international number.",
+    "messageMin": "Please describe your need in at least 20 characters.",
+    "consentRequired": "Consent is required to send the request.",
+    "subject": "Subject",
+    "subjectPlaceholder": "Choose a subject",
+    "contactSubmit": "Contact us",
+    "contactOk": "Your request has been sent to the DiaspoBoost team.",
+    "newsletterOk": "You are subscribed to the newsletter.",
+    "newsletterExists": "This address is already subscribed.",
+    "newsletterSubmit": "Subscribe",
+    "newsletterConsent": "I agree to receive the newsletter and I can unsubscribe at any time.",
+    "profiles": {
+      "diaspora": "Diaspora / expatriate executive",
+      "porteur_projet": "Project holder",
+      "institution": "Institution / state",
+      "partenaire": "Partner / sponsor",
+      "media": "Media"
+    }
+  },
+  "booking": {
+    "title": "Request received",
+    "lead": "Keep this reference. It identifies your file with the team.",
+    "reference": "Reference",
+    "service": "Service",
+    "when": "Date",
+    "qr": "File QR — save or present it",
+    "agenda": "Next step: the team will contact you. Add a reminder in your calendar to follow this file.",
+    "back": "Back to services",
+    "notFound": "This file cannot be found. Check the reference."
+  },
+  "news": {
+    "kicker": "Official feed",
+    "title": "News & alerts",
+    "lead": "Platform releases and useful alerts — never pointless alarm.",
+    "all": "All",
+    "communique": "Release",
+    "alerte": "Alert",
+    "empty": "No release for now.",
+    "published": "Published on",
+    "bannerCta": "Read the alert"
+  },
+  "mission": {
+    "kicker": "Vision",
+    "title": "Pushing the limits of investment",
+    "visionTitle": "The Brain Gain",
+    "vision": "Transforming the diaspora into a major economic lever for Africa by directing its financial flows toward productive investment.",
+    "missionTitle": "Operational mission",
+    "points": [
+      "Inform: Eliminate the information deficit to secure investments from expatriate executives.",
+      "Clarify: Structure a public-private dialogue (B2G) to make the tax framework clear.",
+      "Accompany: Ensure the local anchoring of projects in strategic sectors."
+    ]
+  },
+  "investir": {
+    "kicker": "Path",
+    "title": "How to invest — without picking the wrong door",
+    "lead": "Investing “back home” is not a wire transfer. It is a process: information, counterparts, anchoring, then a decision.",
+    "disclaimer": "DiaspoBoost is not a regulated financial intermediary. The platform accompanies, connects and organises. It does not sell securities, collect funds or promise any return.",
+    "steps": [
+      {
+        "title": "Clarify your intent",
+        "text": "Country, sector, horizon, role (operator, partner, observer). A vague message slows everyone down."
+      },
+      {
+        "title": "Close the information gap",
+        "text": "Sector briefing, local reading, questions to ask before committing capital or a partner."
+      },
+      {
+        "title": "Meet the right counterparts",
+        "text": "Summits and B2G dialogue: institutions, local entrepreneurs, useful relays — not opaque middlemen."
+      },
+      {
+        "title": "Anchor the project",
+        "text": "Local integration, administrative and tax framework, follow-up. That is where intent becomes a project."
+      },
+      {
+        "title": "Stay in the useful flow",
+        "text": "Releases, alerts, Dakar 2027. What follows is played over time, not over a weekend."
+      }
+    ],
+    "cta": "GET STARTED"
+  },
+  "participer": {
+    "kicker": "Path",
+    "title": "How to take part",
+    "lead": "",
+    "paths": [
+      {
+        "title": "Attend a summit",
+        "text": "",
+        "wa": "sommets"
+      },
+      {
+        "title": "Submit or review a project",
+        "text": "",
+        "wa": "projet"
+      },
+      {
+        "title": "Become a partner",
+        "text": "",
+        "wa": "partenaire"
+      },
+      {
+        "title": "Follow the official channel",
+        "text": "",
+        "wa": "media"
+      },
+      {
+        "title": "Become a member",
+        "text": "",
+        "wa": "membres"
+      },
+      {
+        "title": "Read the official reports",
+        "text": "",
+        "to": "/bilans"
+      }
+    ]
+  },
+  "sommets": {
+    "kicker": "Timeline",
+    "title": "DiaspoBoost summits",
+    "lead": "Five documented editions, then Casablanca 2026 at Palace d’Anfa. Next: Kinshasa, Morocco, Dakar 2027.",
+    "pastTitle": "The journey",
+    "tbc": "To confirm"
+  },
+  "gouvernance": {
+    "kicker": "Team",
+    "title": "Foundation and governance",
+    "founderTitle": "The founder",
+    "founderName": "Stéphanie Kimbulu",
+    "founder": "Founder of DiaspoBoost and of Business Congo Consulting, Stéphanie Kimbulu drives a pan-African vision: international summits, institutional partnerships and concrete bridges between Africa and its talent abroad.",
+    "orgTitle": "The host structure",
+    "orgName": "Business Congo Consulting",
+    "org": "A firm specialised in business engineering and investor accompaniment on the African continent. DiaspoBoost is powered by this structure — it is not a ministry.",
+    "netTitle": "The institutional network mobilised",
+    "net": "During summits, the team works in coordination with local governments — including Patrick Muyaya, DRC Minister of Communication and Media, and representatives of the investment ministries of Morocco and Congo-Brazzaville. That coordination is not public ownership of the platform."
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Is DiaspoBoost an app to buy stocks?",
+        "a": "No. It is not a brokerage fintech. It is an exchange, summit and accompaniment platform to direct diaspora savings and expertise toward productive projects."
+      },
+      {
+        "q": "Do I pay online to book a service?",
+        "a": "No. The form creates a request. The team contacts you. No payment is taken on this site."
+      },
+      {
+        "q": "Who owns the platform?",
+        "a": "Stéphanie Kimbulu, through Business Congo Consulting. The public institutions mentioned coordinate at summits; they are not owners of the site."
+      },
+      {
+        "q": "When is the next summit?",
+        "a": "The Casablanca edition was held in April 2026 at Palace d’Anfa. Next: Kinshasa colloquium (8–9 October 2026), Morocco follow-up committee (November 2026), then Dakar in April 2027."
+      },
+      {
+        "q": "Can I submit a project from Africa?",
+        "a": "Yes. Matchmaking is also for project holders and institutions, not only the diaspora."
+      },
+      {
+        "q": "How do I become a member?",
+        "a": "Choose the adult or youth plan on the Members page, then send a request by form or WhatsApp. The team confirms membership. No payment is taken on this site."
+      },
+      {
+        "q": "How do I get the official reports?",
+        "a": "Extracts and full PDFs are on the Reports page: read online, download, or open in a new tab."
+      },
+      {
+        "q": "How do I book project accompaniment?",
+        "a": "Write to us on WhatsApp (the “Start my process” button or the Invest service). A pre-filled message opens: add your name and ask for a slot. The team replies in the same conversation."
+      },
+      {
+        "q": "How do I become a partner or sponsor?",
+        "a": "Write via the form (partnership / sponsoring subject) or WhatsApp. The team will send a file tailored to your aims."
+      }
+    ]
+  },
+  "equipe": {
+    "kicker": "The team",
+    "title": "Team & contact",
+    "lead": "The founder, the host structure — and a direct channel to write to the team."
+  },
+  "contact": {
+    "title": "Contact us",
+    "lead": "",
+    "whatsapp": "WhatsApp (+243 812 226 604)",
+    "intents": [
+      "Become an adult member",
+      "Become a student member (under 25)",
+      "Kinshasa colloquium — 22-23 October 2026",
+      "DiaspoBoost Investday in Antwerp — 4 November 2026",
+      "DiaspoBoost Summit Africa Dakar — 14-17 April 2027",
+      "Become a partner or sponsor",
+      "Receive the partnership file",
+      "General question"
+    ]
+  },
+  "bilans": {
+    "kicker": "Official documents",
+    "title": "DiaspoBoost reports",
+    "homeTitle": "Official reports",
+    "lead": "Extracts on the site, in-browser PDF reading, full download.",
+    "all": "All reports",
+    "read": "Read the extract and PDF",
+    "readShort": "Read the report",
+    "download": "Download the PDF",
+    "downloadFull": "Download the full PDF",
+    "openTab": "Open in a new tab",
+    "back": "All reports",
+    "extractTitle": "Extract",
+    "readerTitle": "Read the document",
+    "readerLead": "The PDF displays below. If your browser blocks it, download it or open it in a new tab.",
+    "readerFallback": "Display unavailable on this device?",
+    "qr": "QR to the full PDF",
+    "heavy": "Large file. Prefer Wi-Fi for the download."
+  },
+  "agenda": {
+    "title": "2026–2027 agenda",
+    "lead": "Gatherings for concrete partnerships. Registration or invitation via WhatsApp or the form — no payment is taken on this site.",
+    "ask": "Request an invitation"
+  },
+  "membres": {
+    "kicker": "Community",
+    "title": "Become a DiaspoBoost member",
+    "lead": "Join an active pan-African community. Fees are those communicated by the team; you request here, then settle payment with the team.",
+    "monthly": "/ month",
+    "yearly": "/ year",
+    "ask": "Request this membership",
+    "payNote": "No payment is taken on this site. Stripe links on the previous site were not live. Send a request: the team will explain the next step.",
+    "formTitle": "Registration form",
+    "formLead": "Event, membership or partnership. You can also write on WhatsApp.",
+    "defaultSubject": "Become an adult member"
+  },
+  "presse": {
+    "kicker": "They cover us",
+    "title": "Press & media",
+    "lead": "Coverage by African, European and international media.",
+    "all": "Full press review"
+  },
+  "temoignages": {
+    "kicker": "They trust us",
+    "title": "What they say about DiaspoBoost",
+    "lead": "Partners and participants of Summit Africa 2026 in Casablanca."
+  },
+  "rdv": {
+    "kicker": "Project accompaniment",
+    "title": "Book an appointment",
+    "lead": "A 30-minute slot to frame your project. The team is notified on every booking.",
+    "howTitle": "How it works",
+    "steps": [
+      "You pick a day and time, and a notification channel (email, WhatsApp, Telegram).",
+      "A calendar event is created (Google Calendar + ICS file).",
+      "The DiaspoBoost team receives the file and confirms the slot."
+    ],
+    "disclaimer": "DiaspoBoost is not a regulated financial intermediary. This appointment is a scoping conversation, not a securities subscription.",
+    "formTitle": "Choose a slot",
+    "formLead": "30 minutes. No payment on this site. After sending, you can add the meeting to Google Calendar.",
+    "slot": "Date and time",
+    "timeZone": "Time zone",
+    "notify": "Notify the team",
+    "notifyLead": "On every booking, a message goes to the team on the channels you tick.",
+    "viaEmail": "Email",
+    "viaWhatsapp": "WhatsApp",
+    "viaTelegram": "Telegram",
+    "notifyRequired": "Choose at least one notification channel.",
+    "telegramHandle": "Your Telegram handle",
+    "project": "Briefly describe the project",
+    "submit": "Confirm the appointment",
+    "slotInvalid": "Enter a future slot.",
+    "eventTitle": "DiaspoBoost — project accompaniment",
+    "altTitle": "Calendar not showing?",
+    "altLead": "Book here: the same email / WhatsApp / Telegram notification.",
+    "confirmTitle": "Appointment saved",
+    "confirmLead": "Add the slot to your calendar, then check that the team notification went through.",
+    "notFound": "This appointment is no longer in this session. Please book again.",
+    "back": "New appointment",
+    "addGoogle": "Add to Google Calendar",
+    "downloadIcs": "Download ICS file (Outlook, Apple, Google)",
+    "notifyEmail": "Notify the team by email",
+    "notifyWhatsapp": "Notify the team on WhatsApp",
+    "notifyTelegram": "Notify the team on Telegram",
+    "confirmNote": "WhatsApp opens the official DiaspoBoost line. The form email also lands in Netlify Forms. For a continuously synced Calendly calendar, send us your Calendly link."
+  },
+  "legal": {
+    "title": "Legal notice",
+    "body": "DiaspoBoost is an exchange platform hosted by Business Congo Consulting. Publisher: Stéphanie Kimbulu. Hosting and technical delivery: MOKILI (mokili.io).\n\nInformation on this site presents missions, summits and accompaniment services. It is neither investment advice nor a public offer of securities.\n\nContact: contact@diaspoboost.com · +243 812 226 604"
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "body": "Purposes: handle service requests, contact messages, memberships and newsletter sign-up; improve the site.\n\nData: identity, email, phone where provided, country, profile, message, timestamps. No file selling.\n\nLegal basis: consent (form checkboxes) and legitimate interest for site operation.\n\nRetention: requests and messages kept 24 months; newsletter until you unsubscribe.\n\nYour rights: access, correction, deletion — write to contact@diaspoboost.com.\n\nNo automated decision-making. Cookies are limited to operation (language, dismissing an alert in session)."
+  },
+  "footer": {
+    "nav": "Navigation",
+    "services": "Services",
+    "contact": "Contact",
+    "newsletter": "Newsletter",
+    "newsletterLead": "Releases and useful dates, no spam.",
+    "disclaimer": "DiaspoBoost is not a regulated financial intermediary. No return is promised."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "This link does not match any page on the site.",
+    "home": "Back to home"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "These details could not be loaded.",
+    "retry": "Try again",
+    "read": "Read"
+  }
+}
