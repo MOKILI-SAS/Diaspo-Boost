@@ -24,11 +24,13 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-base-300 bg-white/95 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3 sm:px-6">
-        <Link to="/" className="flex min-h-11 min-w-0 items-center gap-2" onClick={() => setMobileOpen(false)}>
-          <img src="/brand/logo-diaspoboost.png" alt="DiaspoBoost" width={148} height={56} className="h-10 w-auto sm:h-12" />
-        </Link>
-        <nav className="ml-auto hidden items-center gap-1 lg:flex" aria-label="Principal">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
+        <div className="flex flex-1 items-center justify-start">
+          <Link to="/" className="flex min-h-11 min-w-0 items-center gap-2" onClick={() => setMobileOpen(false)}>
+            <img src="/brand/logo-diaspoboost.png" alt="DiaspoBoost" width={148} height={56} className="h-10 w-auto sm:h-12" />
+          </Link>
+        </div>
+        <nav className="hidden items-center justify-center gap-1 lg:flex" aria-label="Principal">
           {links.map((l) => (
             <NavLink
               key={l.to}
@@ -36,7 +38,7 @@ export function Header() {
               end={l.to === '/'}
               className={({ isActive }) =>
                 cn(
-                  'rounded-full px-2.5 py-2 text-[13px] font-medium text-navy/80 hover:bg-base-200 hover:text-navy',
+                  'rounded-full px-3 py-2 text-[13px] font-medium text-navy/80 hover:bg-base-200 hover:text-navy',
                   isActive && 'bg-base-200 text-navy',
                 )
               }
@@ -45,7 +47,7 @@ export function Header() {
             </NavLink>
           ))}
         </nav>
-        <div className="ml-auto flex items-center gap-2 lg:ml-4">
+        <div className="flex flex-1 items-center justify-end gap-2">
           <div className="join rounded-full border border-base-300" role="group" aria-label="Language">
             <button
               type="button"
