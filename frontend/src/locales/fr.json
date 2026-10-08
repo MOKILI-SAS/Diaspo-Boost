@@ -286,7 +286,7 @@
       },
       {
         "q": "Quand a lieu le prochain sommet ?",
-        "a": "L’édition Casablanca s’est tenue en avril 2026 au Palace d’Anfa. Ensuite : Colloque de la diaspora de l’Économie nationale à Kinshasa (22–23 octobre 2026), DiaspoBoost Investday à Anvers (4 novembre 2026), puis DiaspoBoost Summit Africa à Dakar (14–17 avril 2027)."
+        "a": "L’édition Casablanca s’est tenue en avril 2026 au Palace d’Anfa. Ensuite : Colloque de la contribution de la Diaspora à l'économie nationale à Kinshasa (22–23 octobre 2026), DiaspoBoost Investday à Anvers (4 novembre 2026), puis DiaspoBoost Summit Africa à Dakar (14–17 avril 2027)."
       },
       {
         "q": "Puis-je proposer un projet depuis l’Afrique ?",
@@ -322,7 +322,7 @@
     "intents": [
       "Devenir membre adulte",
       "Devenir membre étudiant (moins de 25 ans)",
-      "Colloque de la diaspora à Kinshasa — 22-23 octobre 2026",
+      "Colloque de la contribution de la Diaspora à l'économie nationale à Kinshasa — 22-23 octobre 2026",
       "DiaspoBoost Investday à Anvers — 4 novembre 2026",
       "DiaspoBoost Summit Africa Dakar — 14-17 avril 2027",
       "Devenir partenaire ou sponsor",
@@ -336,7 +336,7 @@
     "homeTitle": "Bilans officiels",
     "lead": "Extraits sur le site, lecture du PDF en ligne, téléchargement de l’intégralité.",
     "all": "Tous les bilans",
-    "read": "Lire l’extrait et le PDF",
+    "read": "Lire le bilan",
     "readShort": "Lire le bilan",
     "download": "Télécharger le PDF",
     "downloadFull": "Télécharger l’intégralité (PDF)",

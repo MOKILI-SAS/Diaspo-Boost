@@ -12,6 +12,7 @@ export type Edition = {
   bilanSlug?: string
   waLabel?: string
   image: string
+  imagePosition?: string
 }
 
 export const EDITIONS: Edition[] = [
@@ -25,7 +26,6 @@ export const EDITIONS: Edition[] = [
       fr: 'Première édition européenne. Plus de 150 participants. Information pratique pour créer une société en RDC.',
       en: 'First European edition. More than 150 participants. Practical briefing on incorporating a company in the DRC.',
     },
-    bilanSlug: 'bilan-general',
     image: '/editions/bruxelles-2023-06.jpg',
   },
   {
@@ -38,7 +38,6 @@ export const EDITIONS: Edition[] = [
       fr: 'Plus de 200 participants, avec des représentants officiels de la RDC. Animation : Stéphanie Kimbulu.',
       en: 'More than 200 participants, with official DRC representatives. Hosted by Stéphanie Kimbulu.',
     },
-    bilanSlug: 'bilan-general',
     image: '/editions/bruxelles-2023-09.jpg',
   },
   {
@@ -51,7 +50,6 @@ export const EDITIONS: Edition[] = [
       fr: 'Première édition africaine. Plus de 300 participants, ambassade de Belgique, accompagnement de PME.',
       en: 'First African edition. More than 300 participants, Embassy of Belgium, SME accompaniment.',
     },
-    bilanSlug: 'bilan-general',
     image: '/editions/kinshasa-2024.jpg',
   },
   {
@@ -80,7 +78,6 @@ export const EDITIONS: Edition[] = [
       fr: 'Édition bilatérale des deux Congo : immobilier, agri, énergie, technologies de rupture.',
       en: 'Bilateral edition of the two Congos: real estate, agri, energy, breakthrough technologies.',
     },
-    bilanSlug: 'bilan-general',
     image: '/editions/congo-congo-2025.jpg',
   },
   {
@@ -95,16 +92,20 @@ export const EDITIONS: Edition[] = [
     },
     bilanSlug: 'casablanca-2026',
     image: '/editions/casablanca-2026.jpg',
+    imagePosition: 'center top',
   },
   {
     id: 'kinshasa-2026',
     status: 'upcoming',
     date: { fr: '22–23 octobre 2026', en: '22–23 October 2026' },
-    title: { fr: 'Colloque de la diaspora de l’Économie nationale', en: 'National Economy Diaspora Colloquium' },
+    title: {
+      fr: 'Colloque de la contribution de la Diaspora à l\'économie nationale à Kinshasa',
+      en: 'Colloquium on the Diaspora\'s Contribution to the National Economy in Kinshasa',
+    },
     place: { fr: 'Pullman Hôtel — Kinshasa', en: 'Pullman Hotel — Kinshasa' },
     text: {
-      fr: 'Colloque de la diaspora de l’Économie nationale à Kinshasa. Deux jours d’échanges B2G et d’opportunités d’investissement.',
-      en: 'National Economy Diaspora Colloquium in Kinshasa. Two days of B2G dialogues and investment opportunities.',
+      fr: 'Colloque de la contribution de la Diaspora à l\'économie nationale à Kinshasa. Deux jours d’échanges B2G et d’opportunités d’investissement.',
+      en: 'Colloquium on the Diaspora\'s Contribution to the National Economy in Kinshasa. Two days of B2G dialogues and investment opportunities.',
     },
     tags: [
       { fr: 'Kinshasa', en: 'Kinshasa' },
@@ -114,7 +115,7 @@ export const EDITIONS: Edition[] = [
       fr: 'Tarifs indicatifs : 100 USD Standard · 150 USD VIP. Inscription auprès de l’équipe, pas de paiement sur ce site.',
       en: 'Indicative fees: USD 100 Standard · USD 150 VIP. Register with the team; no payment is taken on this site.',
     },
-    waLabel: 'Colloque de la diaspora de l’Économie nationale à Kinshasa — 22-23 octobre 2026',
+    waLabel: 'Colloque de la contribution de la Diaspora à l\'économie nationale à Kinshasa — 22-23 octobre 2026',
     image: '/editions/agenda-diaspoboost.svg',
   },
   {

@@ -286,7 +286,7 @@
       },
       {
         "q": "When is the next summit?",
-        "a": "The Casablanca edition was held in April 2026 at Palace d’Anfa. Next: Kinshasa colloquium (8–9 October 2026), Morocco follow-up committee (November 2026), then Dakar in April 2027."
+        "a": "The Casablanca edition was held in April 2026 at Palace d’Anfa. Next: Colloquium on the Diaspora's Contribution to the National Economy in Kinshasa (22–23 October 2026), DiaspoBoost Investday in Antwerp (4 November 2026), then DiaspoBoost Summit Africa in Dakar (14–17 April 2027)."
       },
       {
         "q": "Can I submit a project from Africa?",
@@ -322,7 +322,7 @@
     "intents": [
       "Become an adult member",
       "Become a student member (under 25)",
-      "Kinshasa colloquium — 22-23 October 2026",
+      "Colloquium on the Diaspora's Contribution to the National Economy in Kinshasa — 22-23 October 2026",
       "DiaspoBoost Investday in Antwerp — 4 November 2026",
       "DiaspoBoost Summit Africa Dakar — 14-17 April 2027",
       "Become a partner or sponsor",
@@ -336,8 +336,8 @@
     "homeTitle": "Official reports",
     "lead": "Extracts on the site, in-browser PDF reading, full download.",
     "all": "All reports",
-    "read": "Read the extract and PDF",
-    "readShort": "Read the report",
+    "read": "Read report",
+    "readShort": "Read report",
     "download": "Download the PDF",
     "downloadFull": "Download the full PDF",
     "openTab": "Open in a new tab",

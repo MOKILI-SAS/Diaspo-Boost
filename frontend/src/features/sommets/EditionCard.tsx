@@ -18,6 +18,7 @@ export function EditionCard({ edition, showCta = false }: { edition: Edition; sh
           width={680}
           height={360}
           className="h-full w-full object-cover sm:h-48"
+          style={edition.imagePosition ? { objectPosition: edition.imagePosition } : undefined}
         />
         <div className="absolute top-3 right-3 flex items-center gap-1.5 rounded-full bg-white/95 px-2.5 py-1 shadow-md backdrop-blur">
           <img src="/brand/logo-diaspoboost.png" alt="DiaspoBoost" className="h-4 w-auto object-contain" />
