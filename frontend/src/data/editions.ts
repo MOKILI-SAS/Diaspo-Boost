@@ -133,7 +133,8 @@ export const EDITIONS: Edition[] = [
       { fr: 'Investday', en: 'Investday' },
     ],
     waLabel: 'DiaspoBoost Investday à Anvers — 4 novembre 2026',
-    image: '/editions/agenda-diaspoboost.svg',
+    image: '/editions/anvers-2026-11.jpg',
+    imagePosition: 'center top',
   },
   {
     id: 'dakar-2027',
@@ -150,6 +151,7 @@ export const EDITIONS: Edition[] = [
       { fr: '4 jours', en: '4 days' },
     ],
     waLabel: 'Pré-inscription Dakar 14-17 avril 2027',
-    image: '/editions/agenda-diaspoboost.svg',
+    image: '/editions/dakar-2027.jpg',
+    imagePosition: 'center top',
   },
 ]
