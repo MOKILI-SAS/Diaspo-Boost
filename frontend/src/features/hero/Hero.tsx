@@ -10,7 +10,7 @@ export function Hero() {
   const { t } = useTranslation()
   const openLancerModal = useUiStore((s) => s.openLancerModal)
   const reduce = useReducedMotion()
-  const videoSrc = import.meta.env.VITE_HERO_VIDEO?.trim() ?? ''
+  const videoSrc = import.meta.env.VITE_HERO_VIDEO?.trim() || '/media/hero.mp4'
   const videoRef = useRef<HTMLVideoElement | null>(null)
   const [playing, setPlaying] = useState(Boolean(videoSrc))
 
